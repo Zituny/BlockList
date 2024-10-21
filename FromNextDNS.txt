@@ -121,6 +121,7 @@
 ||cdn.adsafeprotected.com^
 ||cdn.cookielaw.org^
 ||cdn.cxense.com^
+||cdn.debugbear.com^
 ||cdn.iads.unity3d.com^
 ||cdn.luckyorange.com^
 ||cdn.mobilefuse.com^
@@ -138,6 +139,7 @@
 ||click.oneplus.com^
 ||clienttracing-pa.googleapis.com^
 ||cloudfront-us-east-2.images.arcpublishing.com^
+||collector.github.com^
 ||config.ads.vungle.com^
 ||config.inmobi.com^
 ||config.samsungads.com^
@@ -154,6 +156,7 @@
 ||cstat.cdn-apple.com^
 ||d.applovin.com^
 ||d.reddit.com^
+||d10lpsik1i8c69.cloudfront.net^
 ||data.ads.oppomobile.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -249,6 +252,7 @@
 ||luckyorange.com^
 ||m.doubleclick.net^
 ||mads.amazon-adsystem.com^
+||matomo.mitsogo.com^
 ||media.net^
 ||mediavisor.doubleclick.net^
 ||metrics-dra.dt.hicloud.com^
@@ -332,6 +336,7 @@
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sec.umeng.com^
+||secure.leadforensics.com^
 ||securemetrics.apple.com^
 ||securepubads.g.doubleclick.net^
 ||segment-data-us-east.zqtk.net^
@@ -344,6 +349,7 @@
 ||sf19-static.i18n-pglstatp.com^
 ||skadnetworks.fyber.com^
 ||smetrics.samsung.com^
+||snap.licdn.com^
 ||socialize.us1.gigya.com^
 ||ssdk-sg.pangle.io^
 ||ssl.google-analytics.com^
@@ -390,9 +396,12 @@
 ||wd.adcolony.com^
 ||web.facebook.com^
 ||webview.unityads.unity3d.com^
+||widget.intercom.io^
 ||widgets.outbrain.com^
 ||widgets.pinterest.com^
+||widgets.zohosalesiq.com^
 ||wv.inner-active.mobi^
+||www.adsensecustomsearchads.com^
 ||www.cdn.ad.xiaomi.com^
 ||www.datadoghq-browser-agent.com^
 ||www.google-analytics.com^
