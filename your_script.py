@@ -279,7 +279,8 @@ print(f"The file {file_name} contains {line_count} lines.")
 lines_to_add = [
     "[Adblock Plus]",
     f"! Version: {date_time}",
-    f"! Rules count: {line_count}",
+    f"! Total Rules count: {line_count}",
+    f"! NextDNS Rules count: {FromNextDNSAfter}",
     f"! Title: BlockList"
 ]
 with open(file_name, 'r') as file:
@@ -294,7 +295,7 @@ print(f"The file BlockList.txt contains {line_count} lines.")
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 log_file = "Log.txt"
-new_line = f"{date_time} - Total: {line_count}\n"
+new_line = f"{date_time} - Total Rules: {line_count} - NextDNS Rules: {FromNextDNSAfter}\n"
 with open(log_file, "r") as log:
     old_content = log.read()
 with open(log_file, "w") as log:
