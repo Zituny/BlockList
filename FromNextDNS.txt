@@ -3,7 +3,6 @@
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
 ||5i0tay-dynamic-report-api.appsflyersdk.com^
 ||5i0tay-launches.appsflyersdk.com^
-||Bennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.com^
 ||a.et.nytimes.com^
 ||a.mouseflow.com^
 ||a.nytimes.com^
