@@ -1,3 +1,4 @@
+21102024_122805 - Rules: 407146 - NextDNS: 254
 21102024_120738 - Total Rules: 407144 - NextDNS Rules: 253
 21102024_115749 - Total Rules: 407144 - NextDNS Rules: 253
 21102024_115348 - Total Rules: 407144 - NextDNS Rules: 253
