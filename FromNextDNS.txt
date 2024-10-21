@@ -1,3 +1,4 @@
+||adguard.org^
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
 ||a.et.nytimes.com^
 ||a.mouseflow.com^
