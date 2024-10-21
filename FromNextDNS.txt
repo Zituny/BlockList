@@ -56,14 +56,17 @@
 ||analyticsengine.s3.amazonaws.com^
 ||apcdp.apnews.com^
 ||api-adservices.apple.com^
+||api-reuters-reuters-prod.cdn.arcpublishing.com^
 ||api.ad.xiaomi.com^
 ||api.bugsnag.com^
 ||api.luckyorange.com^
 ||api.mouseflow.com^
 ||api.nextgen.guardianapps.co.uk^
+||api.usercentrics.eu^
 ||app.bugsnag.com^
 ||app.chat.xiaomi.net^
 ||app.getsentry.com^
+||app.usercentrics.eu^
 ||appmetrica.yandex.com^
 ||appmetrica.yandex.ru^
 ||assets.adobedtm.com^
@@ -97,6 +100,7 @@
 ||click.googleanalytics.com^
 ||click.oneplus.cn^
 ||click.oneplus.com^
+||cloudfront-us-east-2.images.arcpublishing.com^
 ||config.samsungads.com^
 ||config.unityads.unity3d.com^
 ||connect.facebook.net^
@@ -193,6 +197,7 @@
 ||phar.gu-web.net^
 ||pixel-us-east.rubiconproject.com^
 ||pixel.facebook.com^
+||players.brightcove.net^
 ||prebid.media.net^
 ||realtime.luckyorange.com^
 ||registry.api.cnn.io^
@@ -235,6 +240,7 @@
 ||tracking.rus.miui.com^
 ||trk.pinterest.com^
 ||tru.am^
+||turnip.cdn.turner.com^
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
 ||upload.luckyorange.net^
