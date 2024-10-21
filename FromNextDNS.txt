@@ -23,6 +23,7 @@
 ||ads-resources.waze.com^
 ||ads-sg.tiktok.com^
 ||ads.facebook.com^
+||ads.google.com^
 ||ads.linkedin.com^
 ||ads.pinterest.com^
 ||ads.reddit.com^
@@ -79,6 +80,7 @@
 ||api.nextgen.guardianapps.co.uk^
 ||api.storyly.io^
 ||api.usercentrics.eu^
+||api.userway.org^
 ||api16-access-sg.pangle.io^
 ||api2.amplitude.com^
 ||api3.siftscience.com^
@@ -398,6 +400,7 @@
 ||tlx.3lift.com^
 ||tnc16-alisg.isnssdk.com^
 ||tools.mouseflow.com^
+||totalmedia2.ynet.co.il^
 ||tpc.googlesyndication.com^
 ||tr.iadsdk.apple.com^
 ||tracking.india.miui.com^
