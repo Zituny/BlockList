@@ -3,6 +3,8 @@
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
 ||5i0tay-dynamic-report-api.appsflyersdk.com^
 ||5i0tay-launches.appsflyersdk.com^
+||74e3c8c0-a16b-49e7-b0d3-08e0e429c2db-netseer-ipaddr-assoc.xy.fbcdn.net^
+||74e3c8c0-a16b-49e7-b0d3-08e0e429c2db-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||a.et.nytimes.com^
 ||a.mouseflow.com^
 ||a.nytimes.com^
@@ -46,12 +48,14 @@
 ||adx.ads.oppomobile.com^
 ||ae01.alicdn.com^
 ||aeis.alicdn.com^
+||aeproductsourcesite.alicdn.com^
 ||affiliationjs.s3.amazonaws.com^
 ||afs.googlesyndication.com^
 ||ak.sail-horizon.com^
 ||als-svc.nytimes.com^
 ||amazonaax.com^
 ||amazonclix.com^
+||amzn.to^
 ||an.facebook.com^
 ||analytics-api.samsunghealthcn.com^
 ||analytics-sg.tiktok.com^
@@ -101,6 +105,7 @@
 ||assoc-amazon.com^
 ||ats-wrapper.privacymanager.io^
 ||auction.unityads.unity3d.com^
+||audid-api.taobao.com^
 ||b79c66077e27a1c100292a6aa5da291cfa7da7ef982a7d0d2708be38d76b31f.us-east-1.prod.service.minerva.devices.a2z.com^
 ||bcmnsm-cdn-settings.appsflyersdk.com^
 ||bcmnsm-launches.appsflyersdk.com^
@@ -167,6 +172,8 @@
 ||d.applovin.com^
 ||d.reddit.com^
 ||d10lpsik1i8c69.cloudfront.net^
+||d9ed4e2f-0274-4875-9f0e-9862427f232f-netseer-ipaddr-assoc.xy.fbcdn.net^
+||d9ed4e2f-0274-4875-9f0e-9862427f232f-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||data.ads.oppomobile.com^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
@@ -216,6 +223,7 @@
 ||go.ezoic.net^
 ||google-analytics.com^
 ||googleads.g.doubleclick.net^
+||graph-fallback.instagram.com^
 ||graph.facebook.com^
 ||graph.instagram.com^
 ||grid-bidder.criteo.com^
@@ -436,6 +444,7 @@
 ||widgets.pinterest.com^
 ||widgets.zohosalesiq.com^
 ||wv.inner-active.mobi^
+||wvcfg.alicdn.com^
 ||www.adsensecustomsearchads.com^
 ||www.cdn.ad.xiaomi.com^
 ||www.datadoghq-browser-agent.com^
