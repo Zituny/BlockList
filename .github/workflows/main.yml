@@ -2,7 +2,7 @@ name: Python Script and Commit Updated Files
 
 on:
   schedule:
-    - cron: "0 */1 * * *"  # This means "run at the top of every 3rd hour"
+    - cron: "0 */1 * * *"  
   push:
     branches:
       - main
@@ -13,17 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Step 3: Install dependencies (if any)
       - name: Install dependencies
         run: |
           pip install -r requirements.txt || true # Adjust if you don't have a requirements.txt
@@ -32,28 +29,26 @@ jobs:
       - name: Install dependencies
         run: pip install pandas requests publicsuffix2 tldextract
 
-      # Step 4: Run your Python script
       - name: Run Python script
+        env:
+          NEXTDNSURL: ${{ secrets.NEXTDNSURL }}
+          NEXTDNSAPIKEY: ${{ secrets.NEXTDNSAPIKEY }}
         run: |
           python your_script.py # Replace with your actual script
 
-      # Step 5: Configure Git to commit changes
       - name: Configure Git
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Step 6: Add updated files to the staging area
       - name: Add changes
         run: |
           git add .
 
-      # Step 7: Commit the changes if any
       - name: Commit changes
         run: |
           git diff-index --quiet HEAD || git commit -m "Update files after script run"
 
-      # Step 8: Push the changes back to the repository
       - name: Push changes
         run: |
           git push
