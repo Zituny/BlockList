@@ -230,3 +230,12 @@ with open(file_name, 'w') as file:
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 print(f"The file BlockList.txt contains {line_count} lines.")
+
+with open('BlockList.txt', 'r') as file:
+    line_count = sum(1 for _ in file)
+log_file = "Log.txt"
+new_line = f"{date_time} - Total: {line_count}\n"
+with open(log_file, "r") as log:
+    old_content = log.read()
+with open(log_file, "w") as log:
+    log.write(new_line + old_content)
