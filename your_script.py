@@ -1,4 +1,3 @@
-# bla
 import requests
 import datetime
 import os
@@ -7,13 +6,64 @@ from pandas.errors import EmptyDataError
 import shutil
 from datetime import datetime
 import pytz
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+with open('FromNextDNS.txt', 'r') as file:
+    lines = file.readlines()
+FromNextDNSBefore = len(lines)
+
+
+
+url = os.getenv('NEXTDNSURL')
+api_key = os.getenv('NEXTDNSAPIKEY')
+
+headers = {
+    "X-Api-Key": api_key
+}
+
+
+
+params = {
+    "limit": 1000,
+    "status": "blocked"
+}
+response = requests.get(url, headers=headers, params=params)
+if response.status_code == 200:
+    logs = response.json()
+    print("Domains retrieved successfully!")
+    logs_data = logs['data']
+    df = pd.json_normalize(logs_data)
+    filtered_df = df[df['status'] == 'blocked']
+    domain_values = filtered_df['domain']
+    domain_values_unique = domain_values.drop_duplicates()
+    domain_values_prepend = '||' + domain_values_unique + '^'
+    with open("FromNextDNS.txt", "r") as FromNextDNS:
+        old_content = FromNextDNS.read()
+    with open("FromNextDNS.txt", "w") as FromNextDNS:
+        for line in domain_values_prepend:
+            FromNextDNS.write(line + '\n')
+        FromNextDNS.write(old_content)
+    print("Domains saved successfully!")
+else:
+    print(f"Failed to retrieve logs from NextDNS. Status code: {response.status_code}")
+    print(response.text)
+with open('FromNextDNS.txt', 'r') as file:
+    lines = file.readlines()
+unique_lines = list(set(lines))
+unique_lines.sort()
+with open('FromNextDNS.txt', 'w') as file:
+    file.writelines(unique_lines)
+with open('FromNextDNS.txt', 'r') as file:
+    lines = file.readlines()
+FromNextDNSAfter = len(lines)
+Added = FromNextDNSAfter - FromNextDNSBefore
+print(f"{Added} Domains added from NextDNS, {FromNextDNSAfter} Total Domains from NextDNS")
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 file_to_delete = 'BlockList.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
-
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 def download_file_content(url):
     try:
@@ -35,8 +85,7 @@ combined_text = "\n".join(combined_content)
 with open("BlockList.txt", "w") as output_file:
     output_file.write(combined_text)
 num_lines = combined_text.count('\n') + 1
-print(f"All lists downloaded into combined.txt with {num_lines} lines.")
-
+print(f"All lists downloaded with {num_lines} lines.")
 def remove_duplicates(file_name):
     with open(file_name, 'r') as file:
         lines = file.readlines()
@@ -51,6 +100,22 @@ line_count = 0
 with open('BlockList.txt', 'r') as file:
     for line in file:
         line_count += 1
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+line_count = 0
+with open('BlockList.txt', 'r') as file:
+    for line in file:
+        line_count += 1
+print(f'BlockList.txt - Total = {line_count}')
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+with open('FromNextDNS.txt', 'r') as source_file:
+    from_nextdns_lines = source_file.readlines()
+with open('BlockList.txt', 'a') as target_file: 
+    target_file.writelines(from_nextdns_lines)
+line_count = 0
+with open('BlockList.txt', 'r') as file:
+    for line in file:
+        line_count += 1
+print(f'NextDNS Lines Added - Total = {line_count}')
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 print(f'Step 1 - Total = {line_count}')
 with open('BlockList.txt', 'r') as file:
@@ -181,35 +246,30 @@ def clean_blocklist_sequential(file_path):
     print("Processing complete. Cleaned list saved.'")
 clean_blocklist_sequential('Blocklist4_StratOkEndOkNoWWW.txt')
 remove_duplicates('BlockList.txt')
-
 file_to_delete = 'Blocklist1_startwell.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
-
 file_to_delete = 'Blocklist2_containending.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
-
 file_to_delete = 'Blocklist3_StratOkEndOk.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
-
 file_to_delete = 'Blocklist4_StratOkEndOkNoWWW.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
-
 file_name = "BlockList.txt"
 israel_tz = pytz.timezone('Asia/Jerusalem')
 date_time = datetime.now(israel_tz).strftime("%d%m%Y_%H%M%S")
@@ -231,7 +291,6 @@ with open(file_name, 'w') as file:
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 print(f"The file BlockList.txt contains {line_count} lines.")
-
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 log_file = "Log.txt"
