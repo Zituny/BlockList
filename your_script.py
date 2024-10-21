@@ -295,3 +295,16 @@ with open(log_file, "r") as log:
     old_content = log.read()
 with open(log_file, "w") as log:
     log.write(new_line + old_content)
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+url = os.getenv('NEXTDNSURL')
+api_key = os.getenv('NEXTDNSAPIKEY')
+headers = {
+    "X-Api-Key": api_key
+}
+response = requests.delete(url, headers=headers)
+if response.status_code == 204:
+    print("Logs cleared successfully!")
+else:
+    print(f"Failed to clear logs. Status code: {response.status_code}")
+    print(response.text)
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
