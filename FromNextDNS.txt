@@ -351,6 +351,7 @@
 ||rt.applovin.com^
 ||rtb.openx.net^
 ||rumcdn.geoedge.be^
+||s.infogram.com^
 ||s.ntv.io^
 ||s.pinimg.com^
 ||s.xlgmedia.com^
