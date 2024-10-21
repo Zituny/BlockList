@@ -290,7 +290,7 @@ print(f"The file BlockList.txt contains {line_count} lines.")
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 log_file = "Log.txt"
-new_line = f"{date_time} - Total Rules: {line_count} - NextDNS Rules: {FromNextDNSAfter}\n"
+new_line = f"{date_time} - Rules: {line_count} - NextDNS: {FromNextDNSAfter}\n"
 with open(log_file, "r") as log:
     old_content = log.read()
 with open(log_file, "w") as log:
