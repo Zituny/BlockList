@@ -27,9 +27,9 @@ if response.status_code == 200:
     print("Domains retrieved successfully!")
     logs_data = logs['data']
     df = pd.json_normalize(logs_data)
-    if df[df['status'] == 'blocked'].empty:
+    if df.empty:
         new_data = {'status': ['blocked'], 'domain': ['Bennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.com']}
-        filtered_df = pd.DataFrame(new_data)
+        df = pd.DataFrame(new_data)
     filtered_df = df[df['status'] == 'blocked']
     domain_values = filtered_df['domain']
     domain_values_unique = domain_values.drop_duplicates()
