@@ -109,6 +109,7 @@
 ||books-analytics-events.apple.com^
 ||browser-intake-datadoghq.com^
 ||browser.sentry-cdn.com^
+||bshr.ezodn.com^
 ||business-api.tiktok.com^
 ||business.samsungusa.com^
 ||c.amazon-adsystem.com^
@@ -119,6 +120,7 @@
 ||careers.hotjar.com^
 ||cdn-test.mouseflow.com^
 ||cdn.adsafeprotected.com^
+||cdn.carbonads.com^
 ||cdn.cookielaw.org^
 ||cdn.cxense.com^
 ||cdn.debugbear.com^
@@ -128,8 +130,11 @@
 ||cdn.mouseflow.com^
 ||cdn.optimizely.com^
 ||cdn.privacy-mgmt.com^
+||cdn.snigelweb.com^
+||cdn.splitbee.io^
 ||cdn.taboola.com^
 ||cdn2.inner-active.mobi^
+||cdn4.buysellads.net^
 ||cf.iadsdk.apple.com^
 ||check-tcp.rayjump.com^
 ||ck.ads.oppomobile.com^
@@ -139,6 +144,7 @@
 ||click.oneplus.com^
 ||clienttracing-pa.googleapis.com^
 ||cloudfront-us-east-2.images.arcpublishing.com^
+||cmp.uniconsent.com^
 ||collector.github.com^
 ||config.ads.vungle.com^
 ||config.inmobi.com^
@@ -149,6 +155,7 @@
 ||configv2.unityads.unity3d.com^
 ||connect.facebook.net^
 ||consent-manager-events.ogury.io^
+||content-loader.com^
 ||contributions.guardianapis.com^
 ||crashlyticsreports-pa.googleapis.com^
 ||cross-promo-provider.easybrain.com^
@@ -170,16 +177,21 @@
 ||dpm.demdex.net^
 ||e1273-6197a.api.pushwoosh.com^
 ||eq97f.publishers.tremorhub.com^
+||error-report.com^
 ||ets.easybrain.com^
 ||event.mshopbugsnag.irm.amazon.dev^
 ||events.ads.vungle.com^
 ||events.hotjar.io^
+||events.launchdarkly.com^
 ||events.reddit.com^
 ||events.redditmedia.com^
 ||events3alt.adcolony.com^
 ||extmaps-api.yandex.net^
 ||fastclick.com^
 ||fastlane.rubiconproject.com^
+||faves.grow.me^
+||fb.content-loader.com^
+||fb.html-load.com^
 ||feedback-pa.googleapis.com^
 ||firebase-settings.crashlytics.com^
 ||firebaselogging-pa.googleapis.com^
@@ -189,6 +201,7 @@
 ||fundingchoicesmessages.google.com^
 ||fwtracks.freshmarketer.com^
 ||g.alicdn.com^
+||g.ezodn.com^
 ||gemini.yahoo.com^
 ||geo.yahoo.com^
 ||get.s-onetag.com^
@@ -196,6 +209,8 @@
 ||global.adserver.yahoo.com^
 ||global.proper.io^
 ||globalapi.ad.xiaomi.com^
+||go.ezodn.com^
+||go.ezoic.net^
 ||google-analytics.com^
 ||googleads.g.doubleclick.net^
 ||graph.facebook.com^
@@ -213,6 +228,7 @@
 ||hrwnbk-gcdsdk.appsflyersdk.com^
 ||hrwnbk-launches.appsflyersdk.com^
 ||htlb.casalemedia.com^
+||html-load.com^
 ||i-sdk.mediation.unity3d.com^
 ||iadsdk.apple.com^
 ||ib.adnxs.com^
@@ -247,10 +263,12 @@
 ||log.pinterest.com^
 ||logbak.hicloud.com^
 ||logs.browser-intake-datadoghq.com^
+||logs.browser-intake-us5-datadoghq.com^
 ||logservice.hicloud.com^
 ||logservice1.hicloud.com^
 ||luckyorange.com^
 ||m.doubleclick.net^
+||m.servedby-buysellads.com^
 ||mads.amazon-adsystem.com^
 ||matomo.mitsogo.com^
 ||media.net^
@@ -279,6 +297,7 @@
 ||noti-us.adsmoloco.com^
 ||notify.bugsnag.com^
 ||o-sdk.mediation.unity3d.com^
+||o1151714.ingest.sentry.io^
 ||o2.mouseflow.com^
 ||o2129.ingest.sentry.io^
 ||o222709.ingest.sentry.io^
@@ -311,6 +330,7 @@
 ||q7xtx9-cdn-settings.appsflyersdk.com^
 ||q7xtx9-launches.appsflyersdk.com^
 ||qwum5ehb-ios.mobile-messenger.intercom.com^
+||r.stripe.com^
 ||realtime.luckyorange.com^
 ||registry.api.cnn.io^
 ||remote-data.urbanairship.com^
@@ -322,12 +342,14 @@
 ||s.xlgmedia.com^
 ||s2s.singular.net^
 ||s3-analytics-events.easybrain.com^
+||s7.addthis.com^
 ||sac.presage.io^
 ||samsung-com.112.2o7.net^
 ||samsungadhub.com^
 ||samsungads.com^
 ||scone-pa.googleapis.com^
 ||script.hotjar.com^
+||scripts.scriptwrapper.com^
 ||sdk-files.smaato.net^
 ||sdk.fra-01.braze.eu^
 ||sdk.iad-07.braze.com^
@@ -351,11 +373,13 @@
 ||smetrics.samsung.com^
 ||snap.licdn.com^
 ||socialize.us1.gigya.com^
+||sp.replit.com^
 ||ssdk-sg.pangle.io^
 ||ssl.google-analytics.com^
 ||static.ads-twitter.com^
 ||static.adsafeprotected.com^
 ||static.chartbeat.com^
+||static.cloudflareinsights.com^
 ||static.doubleclick.net^
 ||static.hotjar.com^
 ||static.media.net^
@@ -367,6 +391,7 @@
 ||sts.applovin.com^
 ||supportmetrics.apple.com^
 ||surveys.hotjar.com^
+||syndication.twitter.com^
 ||tag.wknd.ai^
 ||tags.dxmdp.com^
 ||tags.tiqcdn.com^
@@ -380,6 +405,7 @@
 ||tracking.intl.miui.com^
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
+||translate.google.com^
 ||trk.pinterest.com^
 ||trk.storyly.io^
 ||tru.am^
