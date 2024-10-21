@@ -10,11 +10,13 @@ print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 with open('FromNextDNS.txt', 'r') as file:
     lines = file.readlines()
 FromNextDNSBefore = len(lines)
+
 url = os.getenv('NEXTDNSURL')
 api_key = os.getenv('NEXTDNSAPIKEY')
 headers = {
     "X-Api-Key": api_key
 }
+
 params = {
     "limit": 1000,
     "status": "blocked"
