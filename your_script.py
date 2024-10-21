@@ -304,7 +304,7 @@ headers = {
 }
 response = requests.delete(url, headers=headers)
 if response.status_code == 204:
-    print("Logs cleared successfully!")
+    print("Logs cleared successfully")
 else:
     print(f"Failed to clear logs. Status code: {response.status_code}")
     print(response.text)
