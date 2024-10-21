@@ -1,3 +1,4 @@
+||0musfr-cdn-settings.appsflyersdk.com^
 ||0opt9e-cdn-settings.appsflyersdk.com^
 ||0opt9e-launches.appsflyersdk.com^
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
@@ -170,11 +171,13 @@
 ||cs.luckyorange.net^
 ||cstat.cdn-apple.com^
 ||d.applovin.com^
+||d.applvn.com^
 ||d.reddit.com^
 ||d10lpsik1i8c69.cloudfront.net^
 ||d9ed4e2f-0274-4875-9f0e-9862427f232f-netseer-ipaddr-assoc.xy.fbcdn.net^
 ||d9ed4e2f-0274-4875-9f0e-9862427f232f-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||data.ads.oppomobile.com^
+||data.eu.pendo.io^
 ||data.mistat.india.xiaomi.com^
 ||data.mistat.intl.xiaomi.com^
 ||data.mistat.rus.xiaomi.com^
@@ -263,6 +266,7 @@
 ||keurqb-launches.appsflyersdk.com^
 ||kinesis.eu-west-1.amazonaws.com^
 ||lan.sdk.linkedin.com^
+||launches.appsflyersdk.com^
 ||launchpad-wrapper.privacymanager.io^
 ||lazy-tcp.rayjump.com^
 ||lightning.cnn.com^
@@ -302,7 +306,9 @@
 ||mouseflow.com^
 ||mps.nbcuni.com^
 ||ms.applovin.com^
+||ms.applvn.com^
 ||ms4.applovin.com^
+||ms4.applvn.com^
 ||msh.amazon.com^
 ||navvy.media.net^
 ||nmetrics.samsung.com^
