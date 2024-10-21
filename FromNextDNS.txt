@@ -1,4 +1,3 @@
-||adguard.org^
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
 ||a.et.nytimes.com^
 ||a.mouseflow.com^
@@ -9,6 +8,7 @@
 ||adc3-launch.adcolony.com^
 ||adfox.yandex.ru^
 ||adfstat.yandex.ru^
+||adguard.org^
 ||adm.hotjar.com^
 ||ads-api.tiktok.com^
 ||ads-api.twitter.com^
