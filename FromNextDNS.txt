@@ -45,6 +45,7 @@
 ||advice-ads.s3.amazonaws.com^
 ||adx.ads.oppomobile.com^
 ||ae01.alicdn.com^
+||aeis.alicdn.com^
 ||affiliationjs.s3.amazonaws.com^
 ||afs.googlesyndication.com^
 ||ak.sail-horizon.com^
@@ -136,6 +137,7 @@
 ||cdn.taboola.com^
 ||cdn2.inner-active.mobi^
 ||cdn4.buysellads.net^
+||cds.taboola.com^
 ||cf.iadsdk.apple.com^
 ||check-tcp.rayjump.com^
 ||ck.ads.oppomobile.com^
@@ -243,6 +245,7 @@
 ||iot-eu-logser.realme.com^
 ||iot-logser.realme.com^
 ||ipinfo.io^
+||is.alicdn.com^
 ||iteratehq.com^
 ||j.ophan.co.uk^
 ||jjx13z-launches.appsflyersdk.com^
@@ -255,6 +258,7 @@
 ||launchpad-wrapper.privacymanager.io^
 ||lazy-tcp.rayjump.com^
 ||lightning.cnn.com^
+||live.alljobs.co.il^
 ||live.ravelin.click^
 ||live.rezync.com^
 ||loadus.exelator.com^
@@ -340,6 +344,7 @@
 ||rtb.openx.net^
 ||rumcdn.geoedge.be^
 ||s.ntv.io^
+||s.pinimg.com^
 ||s.xlgmedia.com^
 ||s2s.singular.net^
 ||s3-analytics-events.easybrain.com^
@@ -394,6 +399,7 @@
 ||surveys.hotjar.com^
 ||syndication.twitter.com^
 ||tag.wknd.ai^
+||tags.creativecdn.com^
 ||tags.dxmdp.com^
 ||tags.tiqcdn.com^
 ||telemetry.sdk.inmobi.com^
@@ -419,6 +425,7 @@
 ||unagi.amazon.com^
 ||upload.luckyorange.net^
 ||us.ynuf.aliapp.org^
+||vc.hotjar.io^
 ||w1.luckyorange.com^
 ||warnermediagroup-com.videoplayerhub.com^
 ||wd.adcolony.com^
