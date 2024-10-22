@@ -272,6 +272,7 @@
 ||keurqb-launches.appsflyersdk.com^
 ||kinesis.eu-west-1.amazonaws.com^
 ||lan.sdk.linkedin.com^
+||launcher.spot.im^
 ||launches.appsflyersdk.com^
 ||launchpad-wrapper.privacymanager.io^
 ||lazy-tcp.rayjump.com^
