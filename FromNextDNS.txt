@@ -350,6 +350,7 @@
 ||pok.mintegral.net^
 ||policy-tcp.rayjump.com^
 ||prebid.media.net^
+||pro.ip-api.com^
 ||probe.icloud.com^
 ||probe.me.apple-dns.net^
 ||prod-mediate-events.applovin.com^
@@ -402,6 +403,7 @@
 ||sf16-static.i18n-pglstatp.com^
 ||sf19-static.i18n-pglstatp.com^
 ||skadnetworks.fyber.com^
+||smartplugin.youbora.com^
 ||smetrics.samsung.com^
 ||snap.licdn.com^
 ||socialize.us1.gigya.com^
