@@ -437,6 +437,8 @@
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
 ||translate.google.com^
+||trinity-player.thetimmedia.site^
+||trinitymedia.ai^
 ||trk.pinterest.com^
 ||trk.storyly.io^
 ||tru.am^
