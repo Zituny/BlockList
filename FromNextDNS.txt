@@ -200,6 +200,7 @@
 ||events.reddit.com^
 ||events.redditmedia.com^
 ||events3alt.adcolony.com^
+||experiments.apple.com^
 ||extmaps-api.yandex.net^
 ||fastclick.com^
 ||fastlane.rubiconproject.com^
