@@ -127,6 +127,7 @@
 ||ca.iadsdk.apple.com^
 ||cadmus.script.ac^
 ||careers.hotjar.com^
+||cdn-settings.appsflyersdk.com^
 ||cdn-test.mouseflow.com^
 ||cdn.adsafeprotected.com^
 ||cdn.carbonads.com^
@@ -305,6 +306,7 @@
 ||metrika.yandex.ru^
 ||mid4.linkedin.com^
 ||mobile-gw.spot.im^
+||mobile-sdk-lib-eu-1.brilliantcollector.com^
 ||mouseflow.com^
 ||mps.nbcuni.com^
 ||ms.applovin.com^
