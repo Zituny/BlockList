@@ -330,7 +330,7 @@ def process_domains(url):
         cleaned_domains = [line[2:-1] for line in lines if line.startswith('||') and line.endswith('^')]
 
         # Join the processed domains with a comma and print
-        print(", ".join(cleaned_domains))
+        print(f"				<string>{line}</string>")
     
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data: {e}")
