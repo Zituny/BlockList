@@ -482,3 +482,4 @@
 ||xp.apple.com^
 ||yandexadexchange.net^
 ||z.cdp-dev.cnn.com^
+||zres.alicdn.com^
