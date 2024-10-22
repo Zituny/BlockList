@@ -126,6 +126,7 @@
 ||c2.taboola.com^
 ||ca.iadsdk.apple.com^
 ||cadmus.script.ac^
+||canyoublockit.com^
 ||careers.hotjar.com^
 ||cdn-settings.appsflyersdk.com^
 ||cdn-test.mouseflow.com^
@@ -388,6 +389,7 @@
 ||sdkconfig.ad.intl.xiaomi.com^
 ||sdkconfig.ad.xiaomi.com^
 ||sec.umeng.com^
+||secure.gravatar.com^
 ||secure.leadforensics.com^
 ||securemetrics.apple.com^
 ||securepubads.g.doubleclick.net^
