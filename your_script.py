@@ -329,11 +329,13 @@ def process_domains(url):
         # Process each line to remove the "||" at the start and "^" at the end
         cleaned_domains = [line[2:-1] for line in lines if line.startswith('||') and line.endswith('^')]
 
-        # Join the processed domains with a comma and print
-        print(f"				<string>{line}</string>")
+        # Print each cleaned domain wrapped in <string> tags
+        for domain in cleaned_domains:
+            print(f"				<string>{domain}</string>")
     
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data: {e}")
 
 # Call the function
 process_domains(url)
+
