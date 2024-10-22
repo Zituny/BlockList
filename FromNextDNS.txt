@@ -130,6 +130,8 @@
 ||cdn-settings.appsflyersdk.com^
 ||cdn-test.mouseflow.com^
 ||cdn.adsafeprotected.com^
+||cdn.brandmetrics.com^
+||cdn.browsiprod.com^
 ||cdn.carbonads.com^
 ||cdn.cookielaw.org^
 ||cdn.cxense.com^
@@ -201,6 +203,7 @@
 ||events.reddit.com^
 ||events.redditmedia.com^
 ||events3alt.adcolony.com^
+||experience.tinypass.com^
 ||experiments.apple.com^
 ||extmaps-api.yandex.net^
 ||fastclick.com^
@@ -364,6 +367,7 @@
 ||s.infogram.com^
 ||s.ntv.io^
 ||s.pinimg.com^
+||s.skimresources.com^
 ||s.xlgmedia.com^
 ||s2s.singular.net^
 ||s3-analytics-events.easybrain.com^
