@@ -310,32 +310,3 @@ else:
     print(f"Failed to clear logs. Status code: {response.status_code}")
     print(response.text)
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
-
-
-import requests
-
-# URL to fetch the list
-url = "https://raw.githubusercontent.com/Zituny/BlockList/main/FromNextDNS.txt"
-
-def process_domains(url):
-    try:
-        # Fetch the content from the URL
-        response = requests.get(url)
-        response.raise_for_status()
-        
-        # Get the content and split by lines
-        lines = response.text.splitlines()
-
-        # Process each line to remove the "||" at the start and "^" at the end
-        cleaned_domains = [line[2:-1] for line in lines if line.startswith('||') and line.endswith('^')]
-
-        # Print each cleaned domain wrapped in <string> tags
-        for domain in cleaned_domains:
-            print(f"				<string>{domain}</string>")
-    
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching data: {e}")
-
-# Call the function
-process_domains(url)
-
