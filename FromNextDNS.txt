@@ -12,6 +12,7 @@
 ||a.mouseflow.com^
 ||a.nytimes.com^
 ||a40.usablenet.com^
+||a526b5bf03b6d58a5b7f8dc6fe126129.api.appsee.com^
 ||aax.amazon-adsystem.com^
 ||accounts.us1.gigya.com^
 ||ad.doubleclick.net^
