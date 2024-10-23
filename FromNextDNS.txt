@@ -129,6 +129,7 @@
 ||cadmus.script.ac^
 ||canyoublockit.com^
 ||careers.hotjar.com^
+||cdn-au.onetrust.com^
 ||cdn-settings.appsflyersdk.com^
 ||cdn-test.mouseflow.com^
 ||cdn.adsafeprotected.com^
@@ -149,6 +150,7 @@
 ||cdn.taboola.com^
 ||cdn2.inner-active.mobi^
 ||cdn4.buysellads.net^
+||cdn54405831.ahacdn.me^
 ||cds.taboola.com^
 ||cf.iadsdk.apple.com^
 ||check-tcp.rayjump.com^
@@ -487,6 +489,7 @@
 ||www.adsensecustomsearchads.com^
 ||www.cdn.ad.xiaomi.com^
 ||www.datadoghq-browser-agent.com^
+||www.disfigured-survey.pro^
 ||www.google-analytics.com^
 ||www.googleadservices.com^
 ||www.googletagmanager.com^
