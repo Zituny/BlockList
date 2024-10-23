@@ -309,4 +309,38 @@ if response.status_code == 204:
 else:
     print(f"Failed to clear logs. Status code: {response.status_code}")
     print(response.text)
+
+
+
+
+
+
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+# Open BlockList.txt in read mode
+with open('BlockList.txt', 'r') as blocklist_file:
+    # Read all lines from BlockList.txt
+    blocklist_lines = blocklist_file.readlines()
+
+# Open BlockListTotal.txt in read mode first to get its existing lines
+with open('BlockListTotal.txt', 'r') as blocklist_total_file:
+    blocklist_total_lines = blocklist_total_file.readlines()
+
+# Combine both lists and remove duplicates using a set
+combined_lines = list(set(blocklist_total_lines + blocklist_lines))
+
+# Sort the combined lines (optional)
+combined_lines.sort()
+
+# Open BlockListTotal.txt in write mode to overwrite with the updated list
+with open('BlockListTotal.txt', 'w') as blocklist_total_file:
+    blocklist_total_file.writelines(combined_lines)
+
+# Get the total number of lines in the updated BlockListTotal.txt
+total_lines = len(combined_lines)
+
+print(f"All lines from BlockList.txt have been added to BlockListTotal.txt, duplicates removed.")
+print(f"The file BlockListTotal.txt now contains {total_lines} lines.")
+
+
+
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
