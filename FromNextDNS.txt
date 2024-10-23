@@ -4,6 +4,7 @@
 ||507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app^
 ||5i0tay-dynamic-report-api.appsflyersdk.com^
 ||5i0tay-launches.appsflyersdk.com^
+||702f7ffe25345b8c761d4d29161eebb4.safeframe.googlesyndication.com^
 ||74e3c8c0-a16b-49e7-b0d3-08e0e429c2db-netseer-ipaddr-assoc.xy.fbcdn.net^
 ||74e3c8c0-a16b-49e7-b0d3-08e0e429c2db-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||Bennnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn.com^
@@ -157,6 +158,7 @@
 ||click.oneplus.cn^
 ||click.oneplus.com^
 ||clienttracing-pa.googleapis.com^
+||cloudflareinsights.com^
 ||cloudfront-us-east-2.images.arcpublishing.com^
 ||cmp.uniconsent.com^
 ||collector.github.com^
@@ -174,6 +176,7 @@
 ||crashlyticsreports-pa.googleapis.com^
 ||cross-promo-provider.easybrain.com^
 ||cs.luckyorange.net^
+||csm.fr3.eu.criteo.net^
 ||cstat.cdn-apple.com^
 ||d.applovin.com^
 ||d.applvn.com^
@@ -194,11 +197,13 @@
 ||dowjones.hb.omtrdc.net^
 ||dpm.demdex.net^
 ||e1273-6197a.api.pushwoosh.com^
+||e3ac35cd6c5d8d57b17b4a90e3bd55a5.safeframe.googlesyndication.com^
 ||eq97f.publishers.tremorhub.com^
 ||error-report.com^
 ||ets.easybrain.com^
 ||event.mshopbugsnag.irm.amazon.dev^
 ||events.ads.vungle.com^
+||events.browsiprod.com^
 ||events.hotjar.io^
 ||events.launchdarkly.com^
 ||events.reddit.com^
@@ -240,11 +245,13 @@
 ||growth-pa.googleapis.com^
 ||grs.hicloud.com^
 ||gtm.mouseflow.com^
+||gum.criteo.com^
 ||h-adashx4ae.ut.taobao.com^
 ||h.trace.qq.com^
 ||hbopenbid.pubmatic.com^
 ||hits-secure.theguardian.com^
 ||hotjar.com^
+||hp.taboola.com^
 ||hrwnbk-cdn-settings.appsflyersdk.com^
 ||hrwnbk-gcdsdk.appsflyersdk.com^
 ||hrwnbk-launches.appsflyersdk.com^
@@ -255,6 +262,7 @@
 ||ib.adnxs.com^
 ||id.google.com^
 ||identify.hotjar.com^
+||images.taboola.com^
 ||imasdk.googleapis.com^
 ||in.appcenter.ms^
 ||init.supersonicads.com^
@@ -324,6 +332,7 @@
 ||notes-analytics-events.apple.com^
 ||noti-us.adsmoloco.com^
 ||notify.bugsnag.com^
+||nr-events.taboola.com^
 ||o-sdk.mediation.unity3d.com^
 ||o1151714.ingest.sentry.io^
 ||o2.mouseflow.com^
@@ -340,6 +349,8 @@
 ||pangolin16.sgsnssdk.com^
 ||partiality.itunes.apple.com^
 ||partnerads.ysm.yahoo.com^
+||pauth-ynet.tinypass.com^
+||pauth.ynet.co.il^
 ||pbc.wsj.com^
 ||phar.gu-web.net^
 ||pics.yad2.co.il^
@@ -359,6 +370,7 @@
 ||q7xtx9-cdn-settings.appsflyersdk.com^
 ||q7xtx9-launches.appsflyersdk.com^
 ||qwum5ehb-ios.mobile-messenger.intercom.com^
+||r.skimresources.com^
 ||r.stripe.com^
 ||realtime.luckyorange.com^
 ||registry.api.cnn.io^
@@ -426,6 +438,7 @@
 ||supportmetrics.apple.com^
 ||surveys.hotjar.com^
 ||syndication.twitter.com^
+||t.skimresources.com^
 ||tag.wknd.ai^
 ||tags.creativecdn.com^
 ||tags.dxmdp.com^
@@ -442,6 +455,8 @@
 ||tracking.miui.com^
 ||tracking.rus.miui.com^
 ||translate.google.com^
+||trc-events.taboola.com^
+||trc.taboola.com^
 ||trinity-player.thetimmedia.site^
 ||trinitymedia.ai^
 ||trk.pinterest.com^
@@ -482,5 +497,6 @@
 ||xgapromomanager-pa.googleapis.com^
 ||xp.apple.com^
 ||yandexadexchange.net^
+||yield-manager.browsiprod.com^
 ||z.cdp-dev.cnn.com^
 ||zres.alicdn.com^
