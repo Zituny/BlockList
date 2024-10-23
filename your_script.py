@@ -280,7 +280,7 @@ lines_to_add = [
     f"! Version: {date_time}",
     f"! Total Rules count: {line_count}",
     f"! NextDNS Rules count: {FromNextDNSAfter}",
-    f"! Title: Blocklist"
+    f"! Title: Blocklist Updated"
 ]
 with open(file_name, 'r') as file:
     original_content = file.readlines()
