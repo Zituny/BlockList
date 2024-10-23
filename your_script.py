@@ -529,7 +529,8 @@ with open('BlockList.txt', 'r') as file:
 with open('FromNextDNS.txt', 'r') as file:
     line_count3 = sum(1 for _ in file)
 log_file = "Log.txt"
-new_line = f"{date_time} - Total: {line_count1} - Updated: {line_count2} - NextDNS: {line_count3}\n"
+#new_line = f"{date_time} - Total: {line_count1} - Updated: {line_count2} - NextDNS: {line_count3}\n"
+new_line = f"{date_time} - {line_count1} - {line_count2} - {line_count3}\n"
 with open(log_file, "r") as log:
     old_content = log.read()
 with open(log_file, "w") as log:
