@@ -448,6 +448,7 @@
 ||trk.storyly.io^
 ||tru.am^
 ||turnip.cdn.turner.com^
+||u24939756.ct.sendgrid.net^
 ||udc.yahoo.com^
 ||udcm.yahoo.com^
 ||umlazada.alibaba.com^
