@@ -291,14 +291,6 @@ with open(file_name, 'w') as file:
 with open('BlockList.txt', 'r') as file:
     line_count = sum(1 for _ in file)
 print(f"The file BlockList.txt contains {line_count} lines.")
-with open('BlockList.txt', 'r') as file:
-    line_count = sum(1 for _ in file)
-log_file = "Log.txt"
-new_line = f"{date_time} - Rules: {line_count} - NextDNS: {FromNextDNSAfter}\n"
-with open(log_file, "r") as log:
-    old_content = log.read()
-with open(log_file, "w") as log:
-    log.write(new_line + old_content)
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 url = os.getenv('NEXTDNSURL')
 api_key = os.getenv('NEXTDNSAPIKEY')
@@ -527,3 +519,20 @@ with open(file_name, 'w') as file:
     for line in lines_to_add:
         file.write(line + '\n')
     file.writelines(original_content)
+    
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+    
+with open('BlockListTotal.txt', 'r') as file:
+    line_count1 = sum(1 for _ in file)
+with open('BlockList.txt', 'r') as file:
+    line_count2 = sum(1 for _ in file)   
+with open('FromNextDNS.txt', 'r') as file:
+    line_count3 = sum(1 for _ in file)
+log_file = "Log.txt"
+new_line = f"{date_time} - Total: {line_count1} - Updated: {line_count2} - NextDNS: {line_count3}\n"
+with open(log_file, "r") as log:
+    old_content = log.read()
+with open(log_file, "w") as log:
+    log.write(new_line + old_content)
+    
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
