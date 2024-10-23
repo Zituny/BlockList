@@ -344,3 +344,164 @@ print(f"The file BlockListTotal.txt now contains {total_lines} lines.")
 
 
 print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+
+
+
+with open('BlockListTotal.txt', 'r') as file:
+    for line in file:
+        line_count += 1
+print(f'NextDNS Lines Added - Total = {line_count}')
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print(f'Step 1 - Total = {line_count}')
+with open('BlockListTotal.txt', 'r') as file:
+    lines = file.readlines()
+deleted_count = 0
+valid_lines = []
+for line in lines:
+    if line.startswith('||'):  
+        valid_lines.append(line)  
+    else:
+        deleted_count += 1  
+print(f"Deleted {deleted_count} lines that didn't start with '||'.")
+with open('Blocklist1_startwell.txt', 'w') as file:
+    file.writelines(valid_lines)
+print("Cleaned blocklist saved to 'Blocklist1_startwell.txt'.")
+line_count = 0
+with open('Blocklist1_startwell.txt', 'r') as file:
+    for line in file:
+        line_count += 1  
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print(f'Step 2 - Total = {line_count}')
+remove_duplicates('Blocklist1_startwell.txt')
+with open('Blocklist1_startwell.txt', 'r') as file:
+    lines = file.readlines()
+deleted_count = 0
+valid_lines = []
+deleted_lines = []  
+for line in lines:
+    stripped_line = line.strip()  
+    if stripped_line.endswith('^'):  
+        valid_lines.append(line)
+    else:
+        deleted_lines.append(stripped_line)  
+        deleted_count += 1  
+print(f"Deleted {deleted_count} lines that didn't end with '^'.")
+with open('Blocklist2_containending.txt', 'w') as file:
+    file.writelines(valid_lines)
+print("Cleaned blocklist saved to 'Blocklist2_containending.txt'.")
+print(f"Deleted lines logged to 'deleted_lines_log.txt'.")
+line_count = len(valid_lines)  
+print(f'Total lines in Blocklist2_containending.txt: {line_count}')
+line_count = 0
+with open('Blocklist2_containending.txt', 'r') as file:
+    for line in file:
+        line_count += 1
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print(f'Step 3 - Total = {line_count}')
+remove_duplicates('Blocklist2_containending.txt')
+with open('Blocklist2_containending.txt', 'r') as file:
+    lines = file.readlines()
+deleted_count = 0
+valid_lines = []
+for line in lines:
+    if line.count('^') == 1 and '/' not in line and '\\' not in line and '$' not in line and '?' not in line:
+        valid_lines.append(line)  
+    else:
+        deleted_count += 1
+print(f"Deleted {deleted_count} lines that contained more than one '^'.")
+with open('Blocklist3_StratOkEndOk.txt', 'w') as file:
+    file.writelines(valid_lines)
+print("Cleaned blocklist saved to 'Blocklist3_StratOkEndOk.txt'.")
+line_count = len(valid_lines)  
+print(f'Total lines in Blocklist1_max_one_caret.txt: {line_count}')
+line_count = 0
+with open('Blocklist3_StratOkEndOk.txt', 'r') as file:
+    for line in file:
+        line_count += 1  
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print(f'Step 4 - Total = {line_count}')
+remove_duplicates('Blocklist3_StratOkEndOk.txt')
+from publicsuffix2 import get_sld
+from collections import defaultdict
+def is_valid_format(line):
+    """Checks if a line starts with '||' and ends with '^'."""
+    trimmed_line = line.strip()  
+    return trimmed_line.startswith('||') and trimmed_line.endswith('^')
+with open('Blocklist3_StratOkEndOk.txt', 'r') as file:
+    lines = file.readlines()
+invalid_count = 0  
+valid_lines = []
+for line in lines:
+    if is_valid_format(line):
+        valid_lines.append(line)
+    else:
+        invalid_count += 1
+        print(f"Invalid line: '{line.strip()}' (Length: {len(line.strip())})")  
+print(f"Deleted {invalid_count} lines due to improper format.")
+input_file = 'Blocklist3_StratOkEndOk.txt'
+output_file = 'Blocklist4_StratOkEndOkNoWWW.txt'
+fixed_count = 0
+with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
+    for line in f_in:
+        if line.startswith('||www.'):
+            fixed_line = line.replace('||www.', '||', 1)
+            fixed_count += 1  
+        else:
+            fixed_line = line
+        f_out.write(fixed_line)
+print(f"Processed file saved as '{output_file}'")
+print(f"Total lines fixed: {fixed_count}")
+line_count = 0
+with open('Blocklist4_StratOkEndOkNoWWW.txt', 'r') as file:
+    for line in file:
+        line_count += 1  
+print(f"- - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
+print(f'Step 5 - Total = {line_count}')
+remove_duplicates('Blocklist4_StratOkEndOkNoWWW.txt')
+import tldextract
+def process_domains(domains):
+    base_domains = set()
+    cleaned_domains = set()      
+    for line in domains:
+        domain = line.strip().lstrip("||").rstrip("^")
+        extracted = tldextract.extract(domain)
+        base_domain = f"{extracted.domain}.{extracted.suffix}"
+        if base_domain not in base_domains:
+            cleaned_domains.add(line.strip())
+            if extracted.subdomain == "":
+                base_domains.add(base_domain)
+    return cleaned_domains
+def clean_blocklist_sequential(file_path):
+    with open(file_path, 'r') as f:
+        lines = f.readlines()
+    cleaned_domains = process_domains(lines)
+    with open("BlockListTotal.txt", 'w') as f:
+        for domain in sorted(cleaned_domains):
+            f.write(f"{domain}\n")    
+    print("Processing complete. Cleaned list saved.'")
+clean_blocklist_sequential('Blocklist4_StratOkEndOkNoWWW.txt')
+remove_duplicates('BlockList.txt')
+file_to_delete = 'Blocklist1_startwell.txt'
+if os.path.exists(file_to_delete):
+    os.remove(file_to_delete)
+    print(f"{file_to_delete} has been deleted.")
+else:
+    print(f"{file_to_delete} does not exist.")
+file_to_delete = 'Blocklist2_containending.txt'
+if os.path.exists(file_to_delete):
+    os.remove(file_to_delete)
+    print(f"{file_to_delete} has been deleted.")
+else:
+    print(f"{file_to_delete} does not exist.")
+file_to_delete = 'Blocklist3_StratOkEndOk.txt'
+if os.path.exists(file_to_delete):
+    os.remove(file_to_delete)
+    print(f"{file_to_delete} has been deleted.")
+else:
+    print(f"{file_to_delete} does not exist.")
+file_to_delete = 'Blocklist4_StratOkEndOkNoWWW.txt'
+if os.path.exists(file_to_delete):
+    os.remove(file_to_delete)
+    print(f"{file_to_delete} has been deleted.")
+else:
+    print(f"{file_to_delete} does not exist.")
