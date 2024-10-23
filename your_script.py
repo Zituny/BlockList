@@ -267,6 +267,8 @@ if os.path.exists(file_to_delete):
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
+
+
 file_name = "BlockList.txt"
 israel_tz = pytz.timezone('Asia/Jerusalem')
 date_time = datetime.now(israel_tz).strftime("%d%m%Y_%H%M%S")
@@ -278,7 +280,7 @@ lines_to_add = [
     f"! Version: {date_time}",
     f"! Total Rules count: {line_count}",
     f"! NextDNS Rules count: {FromNextDNSAfter}",
-    f"! Title: BlockList"
+    f"! Title: Blocklist"
 ]
 with open(file_name, 'r') as file:
     original_content = file.readlines()
@@ -480,7 +482,7 @@ def clean_blocklist_sequential(file_path):
             f.write(f"{domain}\n")    
     print("Processing complete. Cleaned list saved.'")
 clean_blocklist_sequential('Blocklist4_StratOkEndOkNoWWW.txt')
-remove_duplicates('BlockList.txt')
+remove_duplicates('BlockListTotal.txt')
 file_to_delete = 'Blocklist1_startwell.txt'
 if os.path.exists(file_to_delete):
     os.remove(file_to_delete)
@@ -505,3 +507,23 @@ if os.path.exists(file_to_delete):
     print(f"{file_to_delete} has been deleted.")
 else:
     print(f"{file_to_delete} does not exist.")
+
+
+file_name = "BlockListTotal.txt"
+israel_tz = pytz.timezone('Asia/Jerusalem')
+date_time = datetime.now(israel_tz).strftime("%d%m%Y_%H%M%S")
+with open(file_name, 'r') as file:
+    line_count = sum(1 for line in file)
+print(f"The file {file_name} contains {line_count} lines.")
+lines_to_add = [
+    "[Adblock Plus]",
+    f"! Version: {date_time}",
+    f"! Total Rules count: {line_count}",
+    f"! Title: Blocklist Total"
+]
+with open(file_name, 'r') as file:
+    original_content = file.readlines()
+with open(file_name, 'w') as file:
+    for line in lines_to_add:
+        file.write(line + '\n')
+    file.writelines(original_content)
