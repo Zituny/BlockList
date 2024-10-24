@@ -59,12 +59,14 @@
 ||ae01.alicdn.com^
 ||aeis.alicdn.com^
 ||aeproductsourcesite.alicdn.com^
+||aff.bstatic.com^
 ||affiliationjs.s3.amazonaws.com^
 ||afs.googlesyndication.com^
 ||ak.sail-horizon.com^
 ||als-svc.nytimes.com^
 ||amazonaax.com^
 ||amazonclix.com^
+||amplify.outbrain.com^
 ||amzn.to^
 ||an.facebook.com^
 ||analytics-api.samsunghealthcn.com^
@@ -154,15 +156,19 @@
 ||cdn.luckyorange.com^
 ||cdn.mobilefuse.com^
 ||cdn.mouseflow.com^
+||cdn.mxpnl.com^
 ||cdn.optimizely.com^
 ||cdn.privacy-mgmt.com^
+||cdn.pubnub.com^
 ||cdn.snigelweb.com^
 ||cdn.splitbee.io^
 ||cdn.taboola.com^
+||cdn.valuad.cloud^
 ||cdn2.inner-active.mobi^
 ||cdn4.buysellads.net^
 ||cdn54405831.ahacdn.me^
 ||cds.taboola.com^
+||ced.sascdn.com^
 ||cf.iadsdk.apple.com^
 ||check-tcp.rayjump.com^
 ||ck.ads.oppomobile.com^
@@ -189,6 +195,7 @@
 ||crashlyticsreports-pa.googleapis.com^
 ||cross-promo-provider.easybrain.com^
 ||cs.luckyorange.net^
+||cs.zg-api.com^
 ||csm.fr3.eu.criteo.net^
 ||cstat.cdn-apple.com^
 ||d.applovin.com^
@@ -211,8 +218,12 @@
 ||doubleclick.net^
 ||dowjones.hb.omtrdc.net^
 ||dpm.demdex.net^
+||e.zg-api.com^
 ||e1273-6197a.api.pushwoosh.com^
 ||e3ac35cd6c5d8d57b17b4a90e3bd55a5.safeframe.googlesyndication.com^
+||ecdn.analysis.fi^
+||ecdn.firstimpression.io^
+||embed.tawk.to^
 ||eq97f.publishers.tremorhub.com^
 ||error-report.com^
 ||ets.easybrain.com^
@@ -296,6 +307,7 @@
 ||jjx13z-launches.appsflyersdk.com^
 ||js-agent.newrelic.com^
 ||js-sec.indexww.com^
+||js.hs-scripts.com^
 ||js.hsforms.net^
 ||keurqb-cdn-settings.appsflyersdk.com^
 ||keurqb-launches.appsflyersdk.com^
@@ -359,6 +371,7 @@
 ||nr-events.taboola.com^
 ||o-sdk.mediation.unity3d.com^
 ||o1151714.ingest.sentry.io^
+||o168728.ingest.sentry.io^
 ||o2.mouseflow.com^
 ||o2129.ingest.sentry.io^
 ||o222709.ingest.sentry.io^
@@ -381,6 +394,7 @@
 ||ping.chartbeat.net^
 ||pixel-us-east.rubiconproject.com^
 ||pixel.facebook.com^
+||pixel.wp.com^
 ||players.brightcove.net^
 ||pok.mintegral.net^
 ||policy-tcp.rayjump.com^
@@ -407,6 +421,7 @@
 ||s.infogram.com^
 ||s.ntv.io^
 ||s.pinimg.com^
+||s.pubmine.com^
 ||s.skimresources.com^
 ||s.xlgmedia.com^
 ||s2s.singular.net^
@@ -416,7 +431,9 @@
 ||samsung-com.112.2o7.net^
 ||samsungadhub.com^
 ||samsungads.com^
+||sb.scorecardresearch.com^
 ||scone-pa.googleapis.com^
+||script.crazyegg.com^
 ||script.hotjar.com^
 ||scripts.scriptwrapper.com^
 ||sdk-files.smaato.net^
