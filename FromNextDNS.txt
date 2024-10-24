@@ -34,6 +34,7 @@
 ||ads-sg.tiktok.com^
 ||ads.facebook.com^
 ||ads.google.com^
+||ads.inmobi.com^
 ||ads.linkedin.com^
 ||ads.pinterest.com^
 ||ads.reddit.com^
@@ -92,6 +93,7 @@
 ||api.mixpanel.com^
 ||api.mouseflow.com^
 ||api.nextgen.guardianapps.co.uk^
+||api.pubnative.net^
 ||api.storyly.io^
 ||api.usercentrics.eu^
 ||api.userway.org^
@@ -116,6 +118,8 @@
 ||auction.unityads.unity3d.com^
 ||audid-api.taobao.com^
 ||b79c66077e27a1c100292a6aa5da291cfa7da7ef982a7d0d2708be38d76b31f.us-east-1.prod.service.minerva.devices.a2z.com^
+||ba6a3af1-e83c-4ba7-855d-e3ae6b80ba00-netseer-ipaddr-assoc.xy.fbcdn.net^
+||ba6a3af1-e83c-4ba7-855d-e3ae6b80ba00-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||bcmnsm-cdn-settings.appsflyersdk.com^
 ||bcmnsm-launches.appsflyersdk.com^
 ||bdapi-ads.realmemobile.com^
@@ -384,6 +388,7 @@
 ||probe.icloud.com^
 ||probe.me.apple-dns.net^
 ||prod-mediate-events.applovin.com^
+||prod.cm.publishers.advertising.a2z.com^
 ||pubads.g.doubleclick.net^
 ||px4.ads.linkedin.com^
 ||q7xtx9-cdn-settings.appsflyersdk.com^
@@ -414,6 +419,7 @@
 ||script.hotjar.com^
 ||scripts.scriptwrapper.com^
 ||sdk-files.smaato.net^
+||sdk-hb-cfg.smaato.net^
 ||sdk.fra-01.braze.eu^
 ||sdk.iad-07.braze.com^
 ||sdk.waze.com^
@@ -464,7 +470,9 @@
 ||tags.tiqcdn.com^
 ||telemetry.sdk.inmobi.com^
 ||tlx.3lift.com^
+||tnc16-alisg.byteoversea.com^
 ||tnc16-alisg.isnssdk.com^
+||tnc16-useast1a.byteoversea.com^
 ||tools.mouseflow.com^
 ||totalmedia2.ynet.co.il^
 ||tpc.googlesyndication.com^
