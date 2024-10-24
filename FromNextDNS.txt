@@ -235,6 +235,7 @@
 ||feedback-pa.googleapis.com^
 ||firebase-settings.crashlytics.com^
 ||firebaselogging-pa.googleapis.com^
+||flipcard.bridged.media^
 ||fls-na.amazon.com^
 ||fourier.taobao.com^
 ||freshmarketer.com^
