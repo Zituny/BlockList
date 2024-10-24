@@ -13,6 +13,8 @@
 ||a.et.nytimes.com^
 ||a.mouseflow.com^
 ||a.nytimes.com^
+||a1f8ee63-485d-4665-b2b6-9102d4c4f0b6-netseer-ipaddr-assoc.xy.fbcdn.net^
+||a1f8ee63-485d-4665-b2b6-9102d4c4f0b6-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||a40.usablenet.com^
 ||a526b5bf03b6d58a5b7f8dc6fe126129.api.appsee.com^
 ||aax.amazon-adsystem.com^
@@ -221,6 +223,8 @@
 ||e.zg-api.com^
 ||e1273-6197a.api.pushwoosh.com^
 ||e3ac35cd6c5d8d57b17b4a90e3bd55a5.safeframe.googlesyndication.com^
+||e6929043-f7a3-41f9-9817-daf2c09a189b-netseer-ipaddr-assoc.xy.fbcdn.net^
+||e6929043-f7a3-41f9-9817-daf2c09a189b-netseer-ipaddr-assoc.xz.fbcdn.net^
 ||ecdn.analysis.fi^
 ||ecdn.firstimpression.io^
 ||embed.tawk.to^
@@ -268,6 +272,7 @@
 ||googleadservices.com^
 ||googletagmanager.com^
 ||googletagservices.com^
+||graph-fallback.facebook.com^
 ||graph-fallback.instagram.com^
 ||graph.facebook.com^
 ||graph.instagram.com^
@@ -436,6 +441,7 @@
 ||script.crazyegg.com^
 ||script.hotjar.com^
 ||scripts.scriptwrapper.com^
+||sdk-events.inner-active.mobi^
 ||sdk-files.smaato.net^
 ||sdk-hb-cfg.smaato.net^
 ||sdk.fra-01.braze.eu^
