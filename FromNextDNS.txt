@@ -17,6 +17,7 @@
 ||a526b5bf03b6d58a5b7f8dc6fe126129.api.appsee.com^
 ||aax.amazon-adsystem.com^
 ||accounts.us1.gigya.com^
+||acs.m.taobao.com^
 ||ad.doubleclick.net^
 ||ad.samsungadhub.com^
 ||ad.xiaomi.com^
@@ -334,6 +335,7 @@
 ||metrics5.data.hicloud.com^
 ||metrika.yandex.ru^
 ||mid4.linkedin.com^
+||middycdn-a.akamaihd.net^
 ||minerva.devices.a2z.com^
 ||mobile-gw.spot.im^
 ||mobile-sdk-lib-eu-1.brilliantcollector.com^
